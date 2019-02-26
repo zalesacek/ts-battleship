@@ -162,10 +162,8 @@ window.onload = function () {
                     this.shipAlive();
                     return true;
                 }
-                else {
-                    return false;
-                }
             }
+            return false;
         };
         Ship.prototype.shipAlive = function () {
             if (this.locations.length > 0) {

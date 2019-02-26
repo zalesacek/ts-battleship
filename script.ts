@@ -182,10 +182,9 @@ window.onload = () => {
                     this.locations.splice(i,1);
                     this.shipAlive();
                     return true;
-                } else {
-                    return false;
                 }
             }
+            return false;
         }
 
         shipAlive(): boolean{
