@@ -1,0 +1,11 @@
+:root {
+    --gridSize: 6;
+}
+
+* {box-sizing: border-box;}
+body {padding:50px 0 0 0;}
+#grid {max-width: 600px; display: flex; flex-wrap: wrap; margin: 0 auto;}
+.cell {width:calc(100% / var(--gridSize)); height: 100px; border: 1px solid #000;}
+.clicked {background:red;}
+.hitted {background:blue;}
+#result {padding:20px 0; text-align:center;}
